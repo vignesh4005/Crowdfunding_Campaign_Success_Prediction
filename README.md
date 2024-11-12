@@ -53,6 +53,7 @@ The dataset used for this project can be found [here](https://raw.githubusercont
 **Random Forest**
 - **Tuning Parameters**: `n_estimators`, `max_depth`
 - **Evaluation Metric**: Accuracy on test data
+  
    ![image](https://github.com/user-attachments/assets/fe754038-dcc0-4b5f-97d7-9b2fdfe90a40)
 
 
