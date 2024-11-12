@@ -1,6 +1,6 @@
 # Crowdfunding Campaign Success Prediction
 
-This project aims to predict the success of crowdfunding campaigns using three machine learning models: **Random Forest**, **Naive Bayes**, and **Support Vector Machine (SVM)**. The dataset used contains features like campaign financial goals, funds raised, campaign duration, and backer engagement. This project evaluates which model performs best in classifying campaign success based on accuracy and other factors.
+This project aims to predict the success of crowdfunding campaigns using machine learning models: **Ensemble Learning (Bagging - Random Forest & Boosting - AdaBoost, Gradient Boost, XGBoost), Naive Bayes, and Support Vector Machine (SVM)** . The dataset used contains features like campaign financial goals, funds raised, campaign duration, and backer engagement. This project evaluates which model performs best in classifying campaign success based on accuracy and other factors.
 
 ## Project Overview
 
