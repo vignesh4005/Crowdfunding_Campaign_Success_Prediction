@@ -47,39 +47,48 @@ The dataset used for this project can be found [here](https://raw.githubusercont
 - **Seasonality**: Success peaks in April, with fluctuations across the year.
 - **Statistical Tests**: **OwnerExperience** strongly influences success; minimal impact from `SocialMediaPresence`, `VideoIncluded`, and `Currency`.
 
-## Machine Learning Models
+## Machine Learning Models and Evaluation
 
 ### 1. Ensemble Learning - Bagging (Bootstrap Aggregation)
-**Random Forest**
+#### **Random Forest**
 - **Tuning Parameters**: `n_estimators`, `max_depth`
 - **Evaluation Metric**: Accuracy on test data
   
    ![image](https://github.com/user-attachments/assets/fe754038-dcc0-4b5f-97d7-9b2fdfe90a40)
 
-
-
 ### 2. Ensemble Learning - Boosting
-**Adaptive Boosting (AdaBoost)**
+#### **Adaptive Boosting (AdaBoost)**
 - **Tuning Parameters**: `n_estimators`, `max_depth`
 - **Evaluation Metric**: Accuracy on test data
+  
+   ![image](https://github.com/user-attachments/assets/76085aea-4e74-4cf6-b573-82511a5a6ee4)
 
-**Gradient Boosting**
+#### **Gradient Boosting**
 - **Tuning Parameters**: `n_estimators`
 - **Evaluation Metric**: Accuracy on test data
 
-**Extreme Gradient Boosting (XGBoost)**
+   ![image](https://github.com/user-attachments/assets/2df257cb-1fa7-47e1-9555-b90b2f86f0a3)
+
+#### **Extreme Gradient Boosting (XGBoost)**
 - **Tuning Parameters**: `n_estimators`, `max_depth`
 - **Evaluation Metric**: Accuracy on test data
 
-### 2. Naive Bayes
+   ![image](https://github.com/user-attachments/assets/50fb90ce-f1dc-4c1a-92d9-cf610aede7ac)
+
+### 3. Naive Bayes
 - **Type**: Chose Gaussian, Multinomial, or Bernoulli based on feature distribution
 - **Evaluation Metric**: Accuracy on test data
 
-### 3. Support Vector Machine (SVM)
+### 4. Support Vector Machine (SVM)
 - **Kernel Options**: Experimented with `linear` and `RBF` kernels
 - **Evaluation Metric**: Accuracy on test data
 
-## **Strengths and Weaknesses**
+### 5. **Comparison and Analysis**
+- **Best Model**: SVM with a linear kernel showed the highest accuracy (99.87%). However, for real-time use with large datasets, **XGBoost** (99.27%) is more efficient and robust.
+- **Random Forest**: Good performance but less efficient than XGBoost.
+- **Naive Bayes**: Inaccurate for this dataset due to its independence assumptions.
+
+### 6. **Strengths and Weaknesses**
 - **SVM**: Strong performance but may demand high memory for large datasets.
 - **XGBoost**: Best balance between accuracy and computational efficiency.
 - **Naive Bayes**: Performs poorly with complex, high-dimensional datasets like this one.
