@@ -2,16 +2,6 @@
 
 This project aims to predict the success of crowdfunding campaigns using three machine learning models: **Random Forest**, **Naive Bayes**, and **Support Vector Machine (SVM)**. The dataset used contains features like campaign financial goals, funds raised, campaign duration, and backer engagement. This project evaluates which model performs best in classifying campaign success based on accuracy and other factors.
 
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Dataset](#dataset)
-- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-- [Machine Learning Models](#machine-learning-models)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [Conclusion](#conclusion)
-
 ## Project Overview
 
 Crowdfunding campaigns have varying success rates, influenced by factors like the amount raised, campaign duration, and backer engagement. In this project, I apply machine learning techniques to predict campaign success. The following steps were carried out:
@@ -63,7 +53,7 @@ The dataset used for this project can be found [here](https://raw.githubusercont
 **Random Forest**
 - **Tuning Parameters**: `n_estimators`, `max_depth`
 - **Evaluation Metric**: Accuracy on test data
-![image](https://github.com/user-attachments/assets/fe754038-dcc0-4b5f-97d7-9b2fdfe90a40)
+   ![image](https://github.com/user-attachments/assets/fe754038-dcc0-4b5f-97d7-9b2fdfe90a40)
 
 
 
